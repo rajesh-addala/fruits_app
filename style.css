@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto";
+}
+
+.navbar{
+    display: flex;
+    padding: 10px 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+
+}
+.logo img{
+    height: 90px;
+    width:90px;
+}
+.search{
+    width:350px;
+    height:34px;
+    border: 3px solid green;
+    border-radius: 4px;
+    display: flex;
+}
+.search_bar{
+    width:85%;
+    border: 0;
+    font-size: 14px;
+    padding: 10px;
+    color: green;
+}
+.search_bar:focus{
+    outline: none;
+    box-shadow: none;
+}
+.search_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    width:15%;
+}
+.search_icon i{
+    color: #fff;
+}
+
+.signin{
+    display: flex;
+    align-items: center;
+}
+.signin i{
+    font-size: 25px;
+}
+.signin span{
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
+.arrow{
+    transform: rotate(90deg);
+    font-size: 25px;
+}
+.icons i{
+    font-size: 25px;   
+}
+.main{
+    padding: 10px 0px;
+}
+
+/* Nav2 */
+.nav2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.logo2{
+    margin-left: -20px;
+}
+.anchors{
+    display: flex;
+    gap: 20px;
+}
+.anchors a{
+    text-decoration: 0;
+    color: #000;
+}
+.anchors a:hover{
+    color: green;
+}
+.phone{
+    display: flex;
+    align-items: center;
+}
+.phone i{
+    color: green;
+}
+.phone span{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.phone span:hover{
+    color: green;
+}
+
+/* section1 */
+.section1{
+    height: 500px;
+    width: auto;
+    background-color: #C9EEDD;
+    padding: 10px 30px;
+    display: flex;
+}
+.left1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 150px;
+    box-sizing: border-box;
+}
+.right1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 50px; */
+}
+.right-img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #b0cdc0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-img img{
+    height: 400px;
+    width: 400px;
+}
+.title1{
+    font-weight: 1000;
+    width: 300px;
+    font-size: 38px;
+}
+.left1 p{
+    margin-bottom: 30px;
+}
+.shop-button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 34px;
+    width: 100px;
+    background-color: rgb(55, 143, 87);
+    border-radius: 2px;
+    justify-content: center;
+    color: white;
+}
+.shop-button button{
+    border: 0;
+    background-color: transparent;
+    color: #fff;
+}
+.shop-button i{
+    font-size: 14px;
+}
+.lorem{
+    width: 500px;
+    font-style: italic;
+    color: #676767;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* section2 */
+.section2{
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+.top2{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.top2 span{
+    font-size: 24px;
+    font-weight: 600;
+}
+.top2 p{
+    font-style: italic;
+    color: #727272;
+}
+.bottom2{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.btm-left2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 100px;
+}
+.btm-left-card{
+    width: 100%;
+    height:20%;
+    background-color: #e5e3e379;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.btm-left-card span{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+.btm-left-card p{
+    font-size: 14px;
+    color: #727272;
+}
+.btm-right2{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 20px;
+}
+.btm-right2 img{
+    padding: 0px;
+    width: 43%;
+    height: 100%;
+    margin-right: 30px;
+}
