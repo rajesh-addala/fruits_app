@@ -73,7 +73,7 @@ body{
     font-size: 25px;   
 }
 .main{
-    padding-top:10px;
+    padding:10px 0px;
     box-sizing: border-box;
     height: auto;
 }
@@ -118,7 +118,7 @@ body{
     height: 500px;
     width: auto;
     background-color: #C9EEDD;
-    padding: 10px 30px;
+    padding: 10px 40px;
     display: flex;
 }
 .left1{
@@ -127,8 +127,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 200px;
     gap: 30px;
-    padding-left: 150px;
     box-sizing: border-box;
 }
 .right1{
@@ -147,10 +147,20 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.6s;
+}
+.right-img:hover{
+    transform: scale(1.03);
+    box-shadow: 5px 5px 10px rgba(0, 128, 0, 0.721);
 }
 .right-img img{
     height: 400px;
     width: 400px;
+    transition: 0.6s;
+}
+
+.right-img img:hover{
+    transform: scale(1.03);
 }
 .title1{
     font-weight: 1000;
@@ -164,12 +174,18 @@ body{
     display: flex;
     align-items: center;
     gap: 10px;
-    height: 34px;
+    height: 30px;
     width: 100px;
     background-color: rgb(55, 143, 87);
-    border-radius: 2px;
+    border-radius: 4px;
     justify-content: center;
     color: white;
+    padding: 5px;
+    transition: 0.4s;
+    box-shadow: 3px 3px 10px #76767646;
+}
+.shop-button:hover{
+    transform: scale(1.05);
 }
 .shop-button button{
     border: 0;
@@ -194,6 +210,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 10px 0px;
+    padding: 10px 40px;
 }
 .top2{
     height: 100px;
@@ -258,12 +275,13 @@ body{
     width: 43%;
     height: 100%;
     margin-right: 30px;
+    border-radius: 10px;
 }
 
 /* section3 */
 .section3{
     height: 800px;
-    padding: 10px 80px;
+    padding: 10px 40px;
 }
 .top3{
     height: 100px;
@@ -273,6 +291,7 @@ body{
     align-items: center;
     justify-content: center;
     gap: 12px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 .top3 span{
@@ -314,6 +333,7 @@ body{
 .left-bottom3{
     width: 100%;
     height:60%;
+    margin-top: 12px;
 }
 .left-bottom3 img{
     height: 100%;
@@ -350,10 +370,16 @@ body{
     height: 87%;
     width: 20%;
     border: 1px solid #ddd;
+    border-radius: 8px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    box-shadow: 5px 5px 10px rgba(211, 209, 209, 0.696);
+    transition: 0.5s;
+}
+.product-card:hover{
+    transform: scale(1.05);
 }
 .pc-top{
     height: 45%;
@@ -367,6 +393,10 @@ body{
 .pc-top img{
     height: 110px;
     width: 90px;
+    transition: 0.6s;
+}
+.pc-top img:hover{
+    transform: scale(1.05);
 }
 .pc-icon{
     color: green;
@@ -382,6 +412,7 @@ body{
     top: 117px;
     z-index: 1;
 }
+
 .pc-btm{
     display: flex;
     flex-direction: column;
@@ -440,7 +471,7 @@ body{
     align-items: center;
     justify-content: space-around;
     background-color: #fff;
-    padding: 10px 80px;
+    padding: 10px 40px;
 }
 .sec4-cards{
     height: 140px;
@@ -470,11 +501,13 @@ body{
 .section5{
     height: 500px;
     width: 100%;
+    box-sizing: border-box;
     background-image: url("./assests/images/sec5_bg.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position:absolute;
+    margin-bottom: 20px;
 }
 .sec5-box{
     background-color: #f3ddcd;
@@ -512,7 +545,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px 60px;
+    padding: 10px 40px;
     box-sizing: border-box;
 }
 .bottom6{
