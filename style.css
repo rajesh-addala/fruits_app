@@ -73,8 +73,9 @@ body{
     font-size: 25px;   
 }
 .main{
-    padding: 10px 0px;
+    padding-top:10px;
     box-sizing: border-box;
+    height: auto;
 }
 
 /* Nav2 */
@@ -272,6 +273,7 @@ body{
     align-items: center;
     justify-content: center;
     gap: 12px;
+    margin-bottom: 20px;
 }
 .top3 span{
     font-size: 24px;
@@ -500,4 +502,297 @@ body{
 .sec5-box img{
     width: 55%;
     border: 2px solid rgba(114, 138, 146, 0.314);
+}
+/* section6 */
+.section6{
+    height: 460px;
+    width: 100%;
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 60px;
+    box-sizing: border-box;
+}
+.bottom6{
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 50px;
+}
+.btm6-card{
+    width: 28%;
+    height: 100%;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+
+}
+.btm6-card h2{
+    margin-bottom: 4px;
+}
+.btm6-card p{
+    color: #727272;
+    font-size: 16px;
+}
+.btm6-card span{
+    color: #727272;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+.p-rating6{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.p-rating6 i{
+    color: gold;
+    font-size: 20px;
+}
+.profile_pic1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -150px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    background-image: url("./assests/images/pic1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    border: 5px solid white;
+}
+.profile_pic2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -150px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    background-image: url("./assests/images/pic2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid white;
+}
+.profile_pic3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -150px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    background-image: url("./assests/images/pic3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    border: 5px solid white;
+}
+/* section7 */
+.section7{
+    height: 650px;
+    width: auto;
+    padding: 10px 40px;
+}
+
+.sec7-bottom{
+    height: 550px;
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.sec7-btm-cards{
+    height: 80%;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+}
+.sec7-btm-card-top{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 32%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.sec7-btm-card-btm1{
+    display: flex;
+    flex-direction: column;
+    height: 68%;
+    background-image: url("./assests/images/img1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sec7-btm-card-btm2{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    background-image: url("./assests/images/img2.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sec7-btm-card-btm3{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    background-image: url("./assests/images/img3.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sec7-btm-card-top span{
+    font-size: 17px;
+    color: #575757;
+    letter-spacing: 0.3px;
+}
+.sec7-btm-card-top p{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    
+}
+.read-more{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: green;
+}
+.read-more span{
+    color: green;
+    font-size: 15px;
+}
+/* footer */
+.footer_section{
+    height: 400px;
+    background-color: rgb(81, 215, 130);
+    padding: 10px 40px;
+    box-sizing: border-box;
+}
+.footer-top{
+    height: 300px;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer_section1{
+    width:25%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    box-sizing: border-box;
+}
+.footer_section1 img{
+    height: 70px;
+    width: 80px;
+}
+.footer_section1 p{
+   color: #fff;
+   font-size: 18px;
+   width: 85%;
+   letter-spacing: 0.1px;
+   line-height: 26px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 100;
+}
+.sm-icons{
+    display: flex;
+    gap: 10px;
+}
+.sm-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.sm-icon i{
+    color: #fff;
+}
+.footer_section2{
+    width:25%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    box-sizing: border-box;
+}
+.footer_section2 h2{
+    color: #fff;
+    margin-bottom: 25px;
+}
+.footer_section2 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+}
+
+.footer_section4{
+    width:25%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    box-sizing: border-box;
+}
+.footer_section4 h2{
+    color: #fff;
+    margin-bottom: 25px;
+}
+.ftr_phn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #fff;
+}
+.ftr_phn i{
+    font-size: 18px;
+}
+.ftr_phn span{
+    font-size: 17px;
+}
+.footer-btm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-btm p{
+    margin-top: 30px;
+    color: #fff;
 }
