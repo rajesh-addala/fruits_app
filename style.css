@@ -666,10 +666,12 @@ body{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    height: 32%;
+    height: 35%;
     padding: 20px;
     box-sizing: border-box;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #ddd;
+    border-bottom: none;
 }
 
 .sec7-btm-card-btm1{
